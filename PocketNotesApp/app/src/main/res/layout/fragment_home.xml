@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F38375"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Informative Page"
+                android:fontFamily="serif"
+                android:textAlignment="center"
+                android:textColor="#F1EAE9"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/homelogo" />
+
+            <TextView
+                android:id="@+id/text_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="8dp"
+                android:text="You can get Notes here related to  technologies like As JAVA,DBMS,Android,PHP, .NET...etc"
+                android:textAlignment="center"
+                android:textColor="#EBE3E2"
+                android:textSize="23dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#A23B3B"
+                    android:fontFamily="serif"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="30dp"
+                    android:paddingBottom="10dp"
+                    android:text="Java"
+                    android:textColor="#F7EDEE"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#D8BF8F"
+                    android:fontFamily="serif"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Android"
+                    android:textColor="#ff01"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#2EA255"
+                    android:fontFamily="serif"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="10dp"
+                    android:text="DBMS"
+                    android:textColor="#ff01"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#1B80B3"
+                    android:fontFamily="serif"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="40dp"
+                    android:paddingBottom="10dp"
+                    android:text="PHP"
+                    android:textColor="#ff01"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#C747C7"
+                    android:fontFamily="serif"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Python"
+                    android:textColor="#E2D1D2"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#F5F2F2"
+                    android:fontFamily="serif"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Dot_NET"
+                    android:textColor="#ff01"
+                    android:textSize="30dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

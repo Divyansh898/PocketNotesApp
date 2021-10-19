@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gggg">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_local_library_black_24dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                />
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint=" Enter Name"
+                android:textColorHint="#FF5722"
+                android:inputType="text"
+                android:id="@+id/txtname"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="60dp"
+                android:textSize="25dp"
+                android:textColor="#FF5722"
+                />
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter Email"
+                android:inputType="textEmailAddress"
+                android:id="@+id/txtemail"
+                android:textColorHint="#FF5722"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="60dp"
+                android:textSize="25dp"
+                android:textColor="#FF5722"
+                />
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter Mobile No."
+                android:inputType="number"
+                android:textColorHint="#FF5722"
+                android:id="@+id/txtmob"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="60dp"
+                android:textSize="25dp"
+                android:textColor="#FF5722"
+                />
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Query here"
+                android:inputType="textMultiLine"
+                android:textColorHint="#FF5722"
+                android:id="@+id/txtquery"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="60dp"
+                android:textSize="25dp"
+                android:textColor="#FF5722"
+                />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="ENQUIRY NOW"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:background="#FF5722"
+                android:id="@+id/btnenq"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

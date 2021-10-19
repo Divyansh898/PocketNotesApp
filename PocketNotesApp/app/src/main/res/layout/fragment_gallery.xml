@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gggg">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/loh"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                />
+            <TextView
+                android:id="@+id/text_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:text="About Us"
+                android:textStyle="bold"
+                android:textColor="#FF5722"/>
+
+
+
+
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/mahaguru" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#D6CCCD"
+                    android:text=" Guide By Er. Akhilesh Sir\n
+               (Mahaguru) \n
+Executive and Managing\n
+            Director of \n
+Mecatredz Technology\n\n
+A real time expert......"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="130dp"
+                    android:padding="5dp"
+android:layout_marginTop="-140dp"
+                    android:textColor="#F44336"
+                    />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="170dp"
+                android:src="@drawable/div"
+                android:layout_marginTop="40dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D6CCCD"
+                android:text="    Divyansh Varshney\n\n
+Final year Student in Diploma \n
+Computer Science and Eng. at\n
+Govt. Polytechnic Madhogarh\n
+          (Jalaun) \n
+                        Training in\n
+Mecatredz Technology pvt.Ltd\n
+          (Lucknow)
+"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:layout_marginLeft="140dp"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:layout_marginTop="-150dp"
+                android:textColor="#F44336"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+
+                android:background="#F0E9E9"
+                android:fontFamily="serif"
+
+                android:padding="10dp"
+                android:text="This Application are more useful than you might think.
+Taking notes with pen and paper works just fine for some.
+Firstly user can registration then Login .
+User can get Notes Related to technology.
+This notes are professional level notes.
+User can read notes and gain knowledge.
+User can gave rating .
+User can share this application for your friends.
+User can any problem then he  enquiry  in this application
+ and Admin can solve this problem......"
+                android:textColor="#140A07"
+                android:textSize="20dp"
+                android:textStyle="italic"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Thanks.... "
+                android:textColor="#F84610"
+                android:layout_marginTop="100dp"
+                android:textSize="30dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:layout_marginLeft="150dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Copyright &#169; mecatredz technology "
+                android:textColor="#F84610"
+                android:layout_marginTop="70dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textAlignment="center"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Developed by Divyansh"
+                android:textColor="#F84610"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:fontFamily="serif"
+
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

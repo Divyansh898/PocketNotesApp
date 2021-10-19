@@ -1,0 +1,13 @@
+Short Description:-This Application is related to Education.This App is the specialty that 
+All the Notes are in the Pdf form than the user can read the easily by using download Pdf.
+Long Description:-
+This Application are more useful than you might think.
+Taking notes with pen and paper works just fine for some.
+Firstly user can registration then Login .
+User can get Notes Related to technology.
+This notes are professional level notes.
+User can read notes and gain knowledge.
+User can gave rating .
+User can share this application for your friends.
+User can any problem then he  enquiry  in this application and Admin can solve this problem.
+This App is the specialty that All the Notes are in the Pdf form than the user can read the easily by using download Pdf.

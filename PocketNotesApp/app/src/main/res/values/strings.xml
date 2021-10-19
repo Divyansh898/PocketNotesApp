@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PocketNotesApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Pocket Notes</string>
+    <string name="nav_header_subtitle">divyanshvarshney143@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Share</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">About</string>
+    <string name="menu_slideshow">Registration</string>
+    <string name="menu_tools">Enquiry</string>
+    <string name="menu_share">Review</string>
+    <string name="menu_send">Login</string>
+</resources>
